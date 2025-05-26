@@ -5,7 +5,7 @@ import RiwayatLaporan from '../components/RiwayatLaporan.vue'
 import Tentang from '../components/Tentang.vue'
 import Kontak from '../components/Kontak.vue'
 import Dashboard from '../components/Dashboard.vue'
-import Login from '../components/Login.vue'
+import Login from '../components/login.vue'
 
 const routes = [
   { path: '/', name: 'Beranda', component: Beranda },
@@ -14,7 +14,7 @@ const routes = [
   { path: '/tentang', name: 'Tentang', component: Tentang },
   { path: '/kontak', name: 'Kontak', component: Kontak },
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
-  { path: '/login', name: 'Login', component: Login }
+  { path: '/login', name: 'login', component: Login }
 ]
 
 const router = createRouter({
